@@ -43,7 +43,7 @@ btn.addEventListener("click",()=>{
 function takeCommand(message){
    voice.style.display="none"
     btn.style.display="flex"
-    if(message.includes("hello")||message.includes("hey")){
+    if(message.includes("hello")||message.includes("hey")||message.includes("hello vivaan")){
         speak("hello sir,what can i help you?")
     }
     else if(message.includes("who are you")){
@@ -84,7 +84,7 @@ function takeCommand(message){
         speak("opening youtube...")
         window.open("https://www.youtube.com/watch?v=KhnVcAC5bIM","_blank")
     }
-    else if(message.includes("How are you")){
+    else if(message.includes("how are you")){
         speak("I am good Sir! Thank you for asking and what about you??")
     }
     else if(message.includes("what are you doing")){
