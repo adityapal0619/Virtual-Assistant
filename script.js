@@ -89,6 +89,7 @@ function takeCommand(message){
     }
     else if(message.includes("what are you doing")){
         speak("Hi sir I am always there to help you!")
+    }
     else{
         let finalText="this is what i found on internet regarding" + message.replace("shipra","") || message.replace("shifra","")
         speak(finalText)
